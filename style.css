@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.calculator{
+    width: 450px;
+    margin: 200px auto;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table button{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    height: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table button:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+table .ac{
+    background-color: red;
+    color: #fff;
+}
+
+table .switch{
+    background-color: green;
+    color: #fff;
+}
+
+table .eval{
+    background-color: rgb(109, 109, 8);
+    color: #fff;
+}
+
+table input{
+    width: 100%;
+    height: 100%;
+}
+
+table input[type="text"]:hover{
+    border: none;
+}
+
+table input[type="text"]{
+    padding: 5px;
+    font-size: 20px;
+}
+
+table input[type="text"]{
+    border: none;
+}
+
+table tr td{
+    width: 100px;
+    height: 50px;
+}
